@@ -3,3 +3,17 @@
 782 -> 8
 918 -> 1*/
 
+Console.WriteLine("Введите трехзначное число a ");
+int a = int.Parse(Console.ReadLine()!);
+
+if (a < 1000)
+{
+int a1 = a / 10;
+int a2 = a1 % 10;
+
+Console.WriteLine($"Вторая цифра числа {a} = {a2}");
+}
+else
+{
+    Console.WriteLine($"Данное число не является трёхзначным");
+};
