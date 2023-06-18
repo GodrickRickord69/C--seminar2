@@ -4,7 +4,7 @@
 32679 -> 6*/
 
 Console.WriteLine("Введите число a ");
-int a = int.Parse(Console.ReadLine()!);
+int a = Math.Abs(int.Parse(Console.ReadLine()!));
 
 if (a > 100000)
 {
